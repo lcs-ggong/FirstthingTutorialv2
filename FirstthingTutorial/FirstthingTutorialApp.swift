@@ -11,7 +11,9 @@ import SwiftUI
 struct FirstthingTutorialApp: App {
     var body: some Scene {
         WindowGroup {
- Eating_at_a_fine_restaurant()
+            NavigationView{
+                tutorialslist()
+            }
         }
     }
 }
