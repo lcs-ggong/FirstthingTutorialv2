@@ -30,7 +30,7 @@ struct tutorialslist: View {
             })
         }
         
-        .navigationTitle("Tutorials")
+        .navigationTitle("Tutorials and tips")
         
         
         

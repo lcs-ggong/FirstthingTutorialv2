@@ -39,46 +39,46 @@ struct Eating_at_a_fine_restaurant: View {
                     Spacer()
                 }
             }
-                
-                .padding(3)
-                
-                Group{
-                    HStack{
-                        Text("❌")
-                            .font(Font.system(size:20, weight: .bold))
-                            .foregroundColor(.black)
-                        
-                        Spacer()
-                    }
+            
+            .padding(3)
+            
+            Group{
+                HStack{
+                    Text("❌")
+                        .font(Font.system(size:20, weight: .bold))
+                        .foregroundColor(.black)
                     
-                    HStack{
-                        Text("1.Look at the menu will not order directly to a friend")
-                            .font(Font.system(size:18, weight: .regular))
-                            .foregroundColor(.black)
-                        
-                        Spacer()
-                    }
-                    
-                    HStack{
-                        Text("2.Drink coffee and lick the stirring stick")
-                            .font(Font.system(size:18, weight: .regular))
-                            .foregroundColor(.black)
-                        
-                        Spacer()
-                    }
-                    
-                    HStack{
-                        Text("3.Dress unkempt")
-                            .font(Font.system(size:18, weight: .regular))
-                            .foregroundColor(.black)
-                        
-                        Spacer()
-                    }
-                    
-                    
+                    Spacer()
                 }
                 
-                .padding(2)
+                HStack{
+                    Text("1.Look at the menu will not order directly to a friend")
+                        .font(Font.system(size:18, weight: .regular))
+                        .foregroundColor(.black)
+                    
+                    Spacer()
+                }
+                
+                HStack{
+                    Text("2.Drink coffee and lick the stirring stick")
+                        .font(Font.system(size:18, weight: .regular))
+                        .foregroundColor(.black)
+                    
+                    Spacer()
+                }
+                
+                HStack{
+                    Text("3.Dress unkempt")
+                        .font(Font.system(size:18, weight: .regular))
+                        .foregroundColor(.black)
+                    
+                    Spacer()
+                }
+                
+                
+            }
+            
+            .padding(2)
             
             Group{
                 
